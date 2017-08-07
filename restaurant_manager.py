@@ -7,13 +7,13 @@ root.title("Restaurant Management System")
 
 text_input = StringVar()
 
-top_frame = Frame(root, width=1600, bg="green", relief=SUNKEN)
+top_frame = Frame(root, width=1600, bg="blue", relief=SUNKEN)
 top_frame.pack(side=TOP)
 
-left_frame = Frame(root, width=800, height=700, bg="green", relief=SUNKEN)
+left_frame = Frame(root, width=800, height=700, bg="blue", relief=SUNKEN)
 left_frame.pack(side=LEFT)
 
-right_frame = Frame(root, width=300, height=700, bg="green", relief=SUNKEN)
+right_frame = Frame(root, width=300, height=700, bg="blue", relief=SUNKEN)
 right_frame.pack(side=RIGHT)
 
 #Stores current time
@@ -28,7 +28,7 @@ title_name.grid(row=1, column=0)
 
 #CALCULATOR
 text_display = Entry(right_frame, font=('arial', 18, 'bold'), textvariable=text_input, bd=30, insertwidth=4,
-                     bg="green", justify='right')
+                     bg="blue", justify='right')
 text_display.grid(columnspan=4)
 
 root.mainloop()
