@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4202d146-eb41-49e8-9bcc-3c6aea780b0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restaurant_manager.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/proj.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -22,8 +20,8 @@
       <file leaf-file-name="restaurant_manager.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/restaurant_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -48,6 +46,7 @@
       <list>
         <option value="$PROJECT_DIR$/proj1.py" />
         <option value="$PROJECT_DIR$/proj.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -212,7 +211,21 @@
       <option name="project" value="LOCAL" />
       <updated>1502133370875</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Framework for restaurant management project">
+      <created>1502134317722</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1502134317722</updated>
+    </task>
+    <task id="LOCAL-00008" summary="adjust README">
+      <created>1502134447449</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1502134447449</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -259,7 +272,8 @@
     <MESSAGE value="add login entry boxes and checkbox" />
     <MESSAGE value="../" />
     <MESSAGE value="Framework for restaurant management project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Framework for restaurant management project" />
+    <MESSAGE value="adjust README" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjust README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -326,6 +340,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/proj1.py" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -336,16 +351,16 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proj1.py" />
     <entry file="file://$PROJECT_DIR$/restaurant_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
