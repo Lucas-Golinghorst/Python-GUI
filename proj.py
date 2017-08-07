@@ -12,5 +12,5 @@ label_2.grid(row=1)
 
 entry_1.grid(row=0, column=1)
 entry_2.grid(row=1, column=1)
-u
+
 root.mainloop()
