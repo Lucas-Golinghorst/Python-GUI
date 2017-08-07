@@ -5,6 +5,8 @@ root = Tk()
 root.geometry("1600x800+0+0")
 root.title("Restaurant Management System")
 
+text_input = StringVar()
+
 top_frame = Frame(root, width=1600, bg="green", relief=SUNKEN)
 top_frame.pack(side=TOP)
 
@@ -25,6 +27,8 @@ title_name = Label(top_frame, font=('arial', 18, 'bold'), text=current_time, fg=
 title_name.grid(row=1, column=0)
 
 #CALCULATOR
-
+text_display = Entry(right_frame, font=('arial', 18, 'bold'), textvariable=text_input, bd=30, insertwidth=4,
+                     bg="green", justify='right')
+text_display.grid(columnspan=4)
 
 root.mainloop()
