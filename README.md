@@ -1,3 +1,3 @@
-# Restaurant Manager Web Application
+# Restaurant Manager Desktop Application
 
 Python GUI exercise demonstrating TKinter functionality.
