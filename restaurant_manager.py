@@ -40,6 +40,24 @@ text_display = Entry(right_frame, font=('arial', 18, 'bold'), textvariable=text_
                      bg="blue", justify='right')
 text_display.grid(columnspan=4)
 
+button1 = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
+                 text="1", bg="blue", command=lambda: btnClick(1)).grid(row=4, column=0)
+
+button2 = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
+                 text="2", bg="blue", command=lambda: btnClick(2)).grid(row=4, column=1)
+
+button3 = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
+                 text="3", bg="blue", command=lambda: btnClick(3)).grid(row=4, column=2)
+
+button4 = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
+                 text="4", bg="blue", command=lambda: btnClick(7)).grid(row=3, column=0)
+
+button5 = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
+                 text="5", bg="blue", command=lambda: btnClick(7)).grid(row=3, column=1)
+
+button6 = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
+                 text="6", bg="blue", command=lambda: btnClick(7)).grid(row=3, column=2)
+
 button7 = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
                  text="7", bg="blue", command=lambda: btnClick(7)).grid(row=2, column=0)
 
@@ -50,6 +68,6 @@ button9 = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial',
                  text="9", bg="blue", command=lambda: btnClick(9)).grid(row=2, column=2)
 
 addition_button = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
-                text="+", bg="blue", command=lambda: btnClick("+")).grid(row=2, column=3)
+                         text="+", bg="blue", command=lambda: btnClick("+")).grid(row=2, column=3)
 
 root.mainloop()
