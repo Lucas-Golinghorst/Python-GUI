@@ -40,6 +40,24 @@ text_display = Entry(right_frame, font=('arial', 18, 'bold'), textvariable=text_
                      bg="blue", justify='right')
 text_display.grid(columnspan=4)
 
+button_eq = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
+                   text="=", bg="blue", command=lambda: btnClick("=")).grid(row=5, column=2)
+
+button_div = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
+                    text="/", bg="blue", command=lambda: btnClick("/")).grid(row=5, column=3)
+
+button_mult = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
+                     text="*", bg="blue", command=lambda: btnClick("*")).grid(row=4, column=3)
+
+button_minus = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
+                      text="-", bg="blue", command=lambda: btnClick("-")).grid(row=3, column=3)
+
+button_c = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
+                  text="c", bg="blue", command=lambda: btnClick("")).grid(row=5, column=1)
+
+button0 = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
+                 text="0", bg="blue", command=lambda: btnClick(0)).grid(row=5, column=0)
+
 button1 = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
                  text="1", bg="blue", command=lambda: btnClick(1)).grid(row=4, column=0)
 
