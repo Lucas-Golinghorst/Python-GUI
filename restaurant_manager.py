@@ -36,12 +36,25 @@ def btnClick(num):
     text_input.set(op)
 
 
+def clrDisplay():
+    global op
+    op = ""
+    text_input.set(op)
+
+
+def btnEquals():
+    global op
+    sumUp = str(eval(op))
+    text_input.set(sumUp)
+    op = ""
+
+
 text_display = Entry(right_frame, font=('arial', 18, 'bold'), textvariable=text_input, bd=30, insertwidth=4,
                      bg="blue", justify='right')
 text_display.grid(columnspan=4)
 
 button_eq = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
-                   text="=", bg="blue", command=lambda: btnClick("=")).grid(row=5, column=2)
+                   text="=", bg="blue", command=btnEquals).grid(row=5, column=2)
 
 button_div = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
                     text="/", bg="blue", command=lambda: btnClick("/")).grid(row=5, column=3)
@@ -52,8 +65,8 @@ button_mult = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('ari
 button_minus = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
                       text="-", bg="blue", command=lambda: btnClick("-")).grid(row=3, column=3)
 
-button_c = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
-                  text="c", bg="blue", command=lambda: btnClick("")).grid(row=5, column=1)
+button_clear = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
+                      text="c", bg="blue", command=clrDisplay).grid(row=5, column=1)
 
 button0 = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
                  text="0", bg="blue", command=lambda: btnClick(0)).grid(row=5, column=0)
