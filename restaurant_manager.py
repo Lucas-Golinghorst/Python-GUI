@@ -51,6 +51,7 @@ def btnEquals():
 
 text_display = Entry(right_frame, font=('arial', 18, 'bold'), textvariable=text_input, bd=30, insertwidth=4,
                      bg="blue", justify='right')
+
 text_display.grid(columnspan=4)
 
 button_eq = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
@@ -61,6 +62,9 @@ button_div = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('aria
 
 button_mult = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
                      text="*", bg="blue", command=lambda: btnClick("*")).grid(row=4, column=3)
+
+button_add = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
+                    text="+", bg="blue", command=lambda: btnClick("+")).grid(row=2, column=3)
 
 button_minus = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
                       text="-", bg="blue", command=lambda: btnClick("-")).grid(row=3, column=3)
@@ -97,8 +101,5 @@ button8 = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial',
 
 button9 = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
                  text="9", bg="blue", command=lambda: btnClick(9)).grid(row=2, column=2)
-
-addition_button = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
-                         text="+", bg="blue", command=lambda: btnClick("+")).grid(row=2, column=3)
 
 root.mainloop()
