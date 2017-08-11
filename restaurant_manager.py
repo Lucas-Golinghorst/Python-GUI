@@ -102,4 +102,18 @@ button8 = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial',
 button9 = Button(right_frame, padx=16, pady=16, bd=8, fg="black", font=('arial', 20, 'bold'),
                  text="9", bg="blue", command=lambda: btnClick(9)).grid(row=2, column=2)
 
+rand = StringVar()
+fries = StringVar()
+lblReference = Label(left_frame, font=('arial', 16, 'bold'), text="Reference", bd=16, anchor='w')
+lblReference.grid(row=0, column=0)
+txtReference = Entry(left_frame, font=('arial', 16, 'bold'), textvariable=rand, bd=10, insertwidth=4,
+                     bg="blue", justify='right')
+txtReference.grid(row=0, column=1)
+
+lblFries = Label(left_frame, font=('arial', 16, 'bold'), text="Large Fries", bd=16, anchor='w')
+lblFries.grid(row=1, column=0)
+txtFries = Entry(left_frame, font=('arial', 16, 'bold'), textvariable=rand, bd=10, insertwidth=4,
+                 bg="blue", justify='right')
+txtFries.grid(row=1, column=1)
+
 root.mainloop()
